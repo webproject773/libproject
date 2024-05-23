@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Start Main Page -->
+    <div class="landing-page">
+        <header>
+            <div class="container">
+                <a href="./index.html" class="logo">Your <b>Website</b></a>
+            </div>
+        </header>
+        
+        <div class="content">
+            <div class="container">
+                
+                <!-- Selected Card -->
+                <div>
+                    <p>Selected card:</p>
+                    <div id="selected-card" class="card">
+                        <p>Select your card.</p>
+                    </div>
+                </div>
+                
+                <!-- Card List Form -->
+                <div id="search-form">
+                    <p>Number of persons:</p>
+                    <input id="persons-number" type="text" />
+                    <input class="search-btn" type="button" value="Search" onclick="search()" />    
+                </div>
+                <div id="card-list">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Landing Page -->
+    <script type="text/javascript" src="js/main.js"></script>
+        
+</body>
+</html>

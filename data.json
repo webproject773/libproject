@@ -1,0 +1,41 @@
+{
+    "list": [
+        {
+            "title": "Option 1",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "hours": 1,
+            "name": "no name",
+            "persons": 4
+        },
+        {
+            "title": "Option 2",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "hours": 1,
+            "name": "no name",
+            "persons": 6
+        },
+        {
+            "title": "Option 3",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "hours": 1,
+            "name": "no name",
+            "persons": 2
+        },
+        {
+            "title": "Option 4",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "hours": 1,
+            "name": "no name",
+            "persons": 4
+        },
+        {
+            "title": "Option 5",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "hours": 1,
+            "name": "no name",
+            "persons": 3
+        }
+    ],
+    "selected": [],
+    "reserved": []
+}
