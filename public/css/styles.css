@@ -1,0 +1,145 @@
+/* Start Global Rules */
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 750px;
+}
+
+/******************** Home Page ********************/
+
+.logo {
+    color: #5d5d5d;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+h1 {
+    color: #5d5d5d;
+    font-size: 44px;
+}
+
+.landing-page .content .image img {
+    margin-top: 20px;
+}
+
+.landing-page .content .image img {
+    max-width: 60%;
+}
+
+.landing-page .content .info p {
+	line-height: 1.6;
+	font-size: 15px;
+	color: #5d5d5d;
+    margin: 30px 0;
+}
+
+.landing-page .content .info .button {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.landing-page .content .info a {
+	border: 0;
+	border-radius: 20px;
+	padding: 12px 30px;
+	cursor: pointer;
+	color: #FFF;
+	background-color: #434175;
+}
+
+/******************** Main Page ********************/
+
+.card {
+    background: #fff;
+/* border-radius: 15px; */
+    margin: 45px 0;
+    padding: 25px;
+    width: 500px;
+    border: 3px #4970db solid;
+}
+
+.card:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#selected-card:hover {
+    background-color: #FFF;
+    cursor: auto;
+}
+
+#selected-card {
+    border: 3px #dd8373 solid;
+    font-weight: bold;
+}
+
+input [type=button] {
+    background: #434175;
+} 
+
+.card p {
+    color: #5d5d5d;
+}
+
+.card .deleteBtn {
+    color: #d65038;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.card .editHoursBtn {
+    color: #1b1d92;
+    cursor:pointer;
+}
+
+.card .editNameBtn {
+    color: #1b1d92;
+    cursor:pointer;
+}
+
+.card .confirmBtn {
+    color: #777;
+    cursor:pointer;
+}
+
+.back-btn {
+    color: #4970db;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+
+#changeHoursBtn, #changeNameBtn {
+    color: #1b1d92;
+    cursor: pointer;
+}
+
+#search-error {
+    color: #d65038;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/******************** Confirm Page ********************/
+
+#confirm-card:hover {
+    background: #FFF;
+}
+
+.reserved-list-btn {
+    color: #4970db;
+    font-weight: bold;
+    margin-left: 20px;
+}
